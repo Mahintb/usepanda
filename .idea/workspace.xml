@@ -4,17 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db120a8c-a40b-4970-9b12-b87817e03061" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/Login/gittest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Usepanda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Usepanda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="db120a8c-a40b-4970-9b12-b87817e03061" name="Changes" comment="updates r">
+      <change afterPath="$PROJECT_DIR$/src/tests/Tests/test_LoginwithInvalidUser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Tests/test_LoginwithValidUser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Login/test_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Login/test_Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserluanch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignupPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Login/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Login/gittest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Login/test_Login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Login/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Tests/test_logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Signup/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Signup/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Tests/test_signup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,115 +53,123 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for browserluanch.test_has_title.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for gittest.test_get_started_link.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for gittest.test_has_title.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for testLogin.test_loginpy.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Login.test_login_with_invalid_user.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Login.test_login_with_valid_user.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_logout.test_example.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_signup.test_example.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_Login.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.browserluanch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gittest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_Login.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/PycharmProjects/usepanda&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for browserluanch.test_has_title.executor": "Run",
+    "Python tests.Python tests for gittest.test_get_started_link.executor": "Run",
+    "Python tests.Python tests for gittest.test_has_title.executor": "Run",
+    "Python tests.Python tests for testLogin.test_loginpy.executor": "Run",
+    "Python tests.Python tests for test_Login.test_login_with_invalid_user.executor": "Run",
+    "Python tests.Python tests for test_Login.test_login_with_valid_user.executor": "Run",
+    "Python tests.Python tests for test_LoginwithInvalidUser.test_login_with_invalid_user.executor": "Run",
+    "Python tests.Python tests for test_LoginwithValidUser.test_login_with_valid_user.executor": "Run",
+    "Python tests.Python tests for test_logout.test_example.executor": "Run",
+    "Python tests.Python tests for test_signup.test_example.executor": "Run",
+    "Python tests.Python tests for test_signup.test_signup.executor": "Run",
+    "Python tests.Python tests in test_Login.py.executor": "Run",
+    "Python tests.Python tests in test_LoginwithInvalidUser.py.executor": "Run",
+    "Python tests.Python tests in test_LoginwithValidUser.py.executor": "Run",
+    "Python tests.Python tests in test_logout.py.executor": "Run",
+    "Python tests.Python tests in test_signup.py.executor": "Run",
+    "Python.browserluanch.executor": "Run",
+    "Python.gittest.executor": "Run",
+    "Python.test_Login.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/HP/PycharmProjects/usepanda",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\usepanda\src\tests\Login" />
       <recent name="C:\Users\ADMIN\PycharmProjects\Usepanda\src\tests\Login" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Login.test_login_with_invalid_user">
-    <configuration name="Python tests for gittest.test_get_started_link" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_signup.test_signup">
+    <configuration name="Python tests for test_LoginwithInvalidUser.test_login_with_invalid_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usepanda" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/Login" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;gittest.test_get_started_link&quot;" />
+      <option name="_new_target" value="&quot;test_LoginwithInvalidUser.test_login_with_invalid_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for gittest.test_has_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_LoginwithValidUser.test_login_with_valid_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usepanda" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/Login" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;gittest.test_has_title&quot;" />
+      <option name="_new_target" value="&quot;test_LoginwithValidUser.test_login_with_valid_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Login.test_login_with_invalid_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_signup.test_signup" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usepanda" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/Login" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Login.test_login_with_invalid_user&quot;" />
+      <option name="_new_target" value="&quot;test_signup.test_signup&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Login.test_login_with_valid_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_LoginwithInvalidUser.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usepanda" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/Login" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Login.test_login_with_valid_user&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/tests/Tests/test_LoginwithInvalidUser.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_Login.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_signup.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usepanda" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/Login" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/tests/Login/test_Login.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/tests/Tests/test_signup.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Login.test_login_with_invalid_user" />
-        <item itemvalue="Python tests.Python tests in test_Login.py" />
-        <item itemvalue="Python tests.Python tests for test_Login.test_login_with_valid_user" />
-        <item itemvalue="Python tests.Python tests for gittest.test_get_started_link" />
-        <item itemvalue="Python tests.Python tests for gittest.test_has_title" />
+        <item itemvalue="Python tests.Python tests for test_signup.test_signup" />
+        <item itemvalue="Python tests.Python tests in test_signup.py" />
+        <item itemvalue="Python tests.Python tests for test_LoginwithValidUser.test_login_with_valid_user" />
+        <item itemvalue="Python tests.Python tests in test_LoginwithInvalidUser.py" />
+        <item itemvalue="Python tests.Python tests for test_LoginwithInvalidUser.test_login_with_invalid_user" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +189,39 @@
       <option name="presentableId" value="Default" />
       <updated>1710993353185</updated>
     </task>
+    <task id="LOCAL-00001" summary="updates">
+      <option name="closed" value="true" />
+      <created>1711273651812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711273651814</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updates r">
+      <option name="closed" value="true" />
+      <created>1711273841944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711273841945</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updates" />
+    <MESSAGE value="updates r" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates r" />
   </component>
 </project>
