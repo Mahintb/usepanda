@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db120a8c-a40b-4970-9b12-b87817e03061" name="Changes" comment="updates r">
-      <change afterPath="$PROJECT_DIR$/src/tests/Tests/test_LoginwithInvalidUser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Tests/test_LoginwithValidUser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserluanch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignupPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Login/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Login/gittest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Login/test_Login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Login/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Tests/test_logout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Signup/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Signup/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Tests/test_signup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Tests/test_LoginwithInvalidUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Tests/test_LoginwithInvalidUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Tests/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Tests/test_logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Tests/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Tests/test_signup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +55,7 @@
     "Python tests.Python tests for test_LoginwithInvalidUser.test_login_with_invalid_user.executor": "Run",
     "Python tests.Python tests for test_LoginwithValidUser.test_login_with_valid_user.executor": "Run",
     "Python tests.Python tests for test_logout.test_example.executor": "Run",
+    "Python tests.Python tests for test_logout.test_logout.executor": "Run",
     "Python tests.Python tests for test_signup.test_example.executor": "Run",
     "Python tests.Python tests for test_signup.test_signup.executor": "Run",
     "Python tests.Python tests in test_Login.py.executor": "Run",
@@ -87,7 +79,7 @@
       <recent name="C:\Users\ADMIN\PycharmProjects\Usepanda\src\tests\Login" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_signup.test_signup">
+  <component name="RunManager" selected="Python tests.Python tests in test_logout.py">
     <configuration name="Python tests for test_LoginwithInvalidUser.test_login_with_invalid_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usepanda" />
       <option name="ENV_FILES" value="" />
@@ -118,7 +110,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_signup.test_signup" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_logout.test_logout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usepanda" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +121,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_signup.test_signup&quot;" />
+      <option name="_new_target" value="&quot;test_logout.test_logout&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -148,7 +140,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_signup.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_logout.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usepanda" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,17 +151,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/tests/Tests/test_signup.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/tests/Tests/test_logout.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_signup.test_signup" />
-        <item itemvalue="Python tests.Python tests in test_signup.py" />
-        <item itemvalue="Python tests.Python tests for test_LoginwithValidUser.test_login_with_valid_user" />
+        <item itemvalue="Python tests.Python tests in test_logout.py" />
+        <item itemvalue="Python tests.Python tests for test_logout.test_logout" />
         <item itemvalue="Python tests.Python tests in test_LoginwithInvalidUser.py" />
         <item itemvalue="Python tests.Python tests for test_LoginwithInvalidUser.test_login_with_invalid_user" />
+        <item itemvalue="Python tests.Python tests for test_LoginwithValidUser.test_login_with_valid_user" />
       </list>
     </recent_temporary>
   </component>

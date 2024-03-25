@@ -11,13 +11,15 @@ def test_login_with_invalid_user(page: Page) -> None:
     page.get_by_placeholder("Password").fill("1234567")
     page.get_by_role("button", name="Login").click()
     time.sleep(10)
-    expect(page.get_by_text("Tests failed.")).to_be_visible()
+    page.wait_for_selector("//span[@ng-if='user.$invalid']",timeout=50000)
+    failbutton = page.query_selector("//span[@ng-if='user.$invalid']").text_content()
+    assert failbutton == "Login failed.", False
 
 
 
 
 with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=3000)
+        browser = p.chromium.launch(headless=False, slow_mo=1000)
         page = browser.new_page()
         test_login_with_invalid_user(page)
         browser.close()

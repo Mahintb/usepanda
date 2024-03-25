@@ -8,7 +8,7 @@ def test_signup(page : Page) -> None:
     page.goto("https://app.usepanda.com/#/")
     page.get_by_role("link", name="Sign Up").click()
     page.get_by_placeholder("Username").click()
-    page.get_by_placeholder("Username").fill("fchgjghxrf")  #give random name
+    page.get_by_placeholder("Username").fill("ghchggggggc")  #give random name
     page.get_by_placeholder("E-mail").click()
     page.get_by_placeholder("E-mail").fill("mahintb@gmail.com")
     page.get_by_placeholder("Password").click()
